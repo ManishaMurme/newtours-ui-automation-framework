@@ -1,5 +1,17 @@
-1)      Remove Slide 15 and 16 as no updates are provided as we do not track it.
+import java.util.Scanner;
+public class ABC1 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a number to check even or odd:");
+        int n = input.nextInt();
 
-2)      PAQ details need to be mentioned
+        if(n % 2 == 0)
+        {
+            System.out.println("Given number is even");
+        }else
+        {
+            System.out.println("Given number is odd");
+        }
 
-3)      Automation status for overall LOB needs to be provided in a slide.
+    }
+}
